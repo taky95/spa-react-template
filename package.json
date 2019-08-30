@@ -3,9 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.3.3",
+    "google-maps-react": "^2.0.2",
     "react": "^16.9.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-animations": "^1.0.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-responsive-carousel": "^3.1.50",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "react-transition-group": "^4.2.2",
+    "react-video-cover": "^1.2.2",
+    "styled-components": "^4.3.2",
+    "svg-react-loader": "^0.4.6"
   },
   "scripts": {
     "start": "react-scripts start",

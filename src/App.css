@@ -1,33 +1,180 @@
-.App {
-  text-align: center;
+/*
+** Author: Takumi Minohara
+** Last updated: Aug-30-12019 
+*/
+
+.homepage{
+    padding-top: 30%;
+    padding-bottom: 2%;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: -18vh;
+    left: 0vw;
+    background-color: rgba(243, 252, 242, 0.2);
+    z-index: 2;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.homepage h1{
+    color: #f2f2f2;
+    text-shadow: 9px 2px 2px rgba(0,0,0,0.4);
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 5vw;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.homepage a{
+    margin: 20px;
+    color: white;
+    font-weight: 900;
 }
 
-.App-link {
-  color: #61dafb;
+.logo{
+    opacity: 0.4; 
+    z-index: -1; 
+    float: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    font-weight: 900;
+    position: relative;
+    color: #ffffff;
+}
+
+.scrollDown{
+    -webkit-transform: 'rotate(180deg)';
+    transform: rotate(180deg);
+}
+
+.scrollDown a{
+    text-shadow: #383838 0px 0px 0px;
+    font-size: 500%;
+    -webkit-transition: text-shadow .2s;
+    transition: text-shadow .2s;
+}
+
+.scrollDown a:hover{
+    text-shadow: #383838 -2px -1px 5px;
+}
+
+.content{
+     margin-top: -30vh;
+}
+
+.content h1{
+    font-size: 2em;
+}
+
+.content h1::after {
+    border-bottom: solid 1px #FF8A20;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 15%;
+}
+
+.slide p{
+    font-size: 130%;
+}
+
+.slide1, .slide3{
+    background-color: #efefef;
+    padding: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.slide1 img{
+    border-radius: 50%;
+    float: right;
+}
+
+.slide1 img.delighter{
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+    opacity: 0;
+}
+
+.slide1 img.delighter.started{
+    -webkit-transform:scale(1.1);
+    opacity: 1;
+}
+
+.slide1 img.delighter.ended{
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
+.slide1 p.delighter{
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+    opacity: 0;
+}
+
+.slide1 p.delighter.started {
+	opacity: 1;
+}
+
+.slide2{
+    background: url("product.jpg") 50% 0 no-repeat fixed;
+    padding: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+
+.slide2 a{
+    color: white;
+    margin-top: 25px;
+}
+
+.slide4{
+    background: url("contact.jpg") 50% 0 no-repeat fixed;
+    padding: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+
+.contact{
+    border-radius: 5px;
+    padding: 10%;
+    color: #2e2e2e;
+    background-color: rgba(237, 237, 237, 0.8);
+    font-size: 120%;
+}
+
+.footer{
+    background-color: #2E7BBB;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* phones and tablet: from 0 to 1024px */
+@media only screen and (max-width: 1024px){
+    .homepage{
+        padding-top: 70%;
+    }
+    
+    .homepage h1{
+        text-shadow: 4px 1px 2px rgba(0,0,0,0.4);
+        font-size: 10vw;
+    }
+    
+    .content h1::after {
+        border-bottom: solid 1px #FF8A20;
+        bottom: 0;
+        content: "";
+        display: block;
+        width: 50%;
+    }
 }
