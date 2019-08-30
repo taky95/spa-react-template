@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8dfae689.chunk.css",
+    "main.js": "/static/js/main.dbf8dc04.chunk.js",
+    "main.js.map": "/static/js/main.dbf8dc04.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.037d5d7d.js",
+    "runtime~main.js.map": "/static/js/runtime~main.037d5d7d.js.map",
+    "static/css/2.3c1ddb0a.chunk.css": "/static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.4bcc2ced.chunk.js": "/static/js/2.4bcc2ced.chunk.js",
+    "static/js/2.4bcc2ced.chunk.js.map": "/static/js/2.4bcc2ced.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1153653fd28f8f7068e59f46193d937c.js": "/precache-manifest.1153653fd28f8f7068e59f46193d937c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.3c1ddb0a.chunk.css.map": "/static/css/2.3c1ddb0a.chunk.css.map",
+    "static/css/main.8dfae689.chunk.css.map": "/static/css/main.8dfae689.chunk.css.map",
+    "static/media/App.css": "/static/media/product.0a160600.jpg"
+  }
+}

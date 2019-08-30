@@ -38,5 +38,5 @@ const mapStyles = {
 };
 
 export default GoogleApiWrapper({
-    apiKey: 'AIzaSyCxz66G9yvXwUWDREixXoiS_POOP2BDgco'
+    apiKey: 'PASTE YOUR API KEY HERE'
 })(Iframe);
