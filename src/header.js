@@ -49,6 +49,10 @@ const Wrapper = styled.div`
         @media only screen and (max-width:480px){
             margin-right: 5px;
         }          
+
+        @media only screen and (max-width:320px){
+            margin-right: 3px;
+        } 
         
         a{
             text-decoration: none;
@@ -60,6 +64,9 @@ const Wrapper = styled.div`
             @media only screen and (max-width:480px){
                 font-size: 15px;
             }
+            @media only screen and (max-width:320px){
+                font-size: 13px;
+            } 
             
             &::after {
                 border-bottom: solid 1px #FF8A20;

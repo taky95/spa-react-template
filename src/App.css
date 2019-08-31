@@ -178,3 +178,44 @@
         width: 50%;
     }
 }
+
+@media only screen and (max-width: 1024px){
+    .homepage{
+        padding-top: 70%;
+    }
+    
+    .homepage h1{
+        text-shadow: 4px 1px 2px rgba(0,0,0,0.4);
+        font-size: 10vw;
+    }
+    
+    .content h1::after {
+        border-bottom: solid 1px #FF8A20;
+        bottom: 0;
+        content: "";
+        display: block;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .homepage{
+        background: url(top.jpg) 70% 0 no-repeat;
+        width: 150vw;
+        height: 100vh;
+        position: relative;
+        margin: auto;
+        top: -25vh;
+        left: -25vw;
+        margin-bottom: 20px;
+    }
+    
+    .slide2{
+        background: url("product.jpg") 50% 0 no-repeat;
+    }
+    
+    .slide4{
+        background: url("contact.jpg") 30% 0 no-repeat;
+    }
+
+}
